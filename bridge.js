@@ -1441,7 +1441,7 @@
 
 xdLocalStorage.init(
     {
-        iframeUrl: 'https://lms.backpack.education/scripts/cross-domain-local-storage/dist/views/cross-domain-local-storage.html',
+        iframeUrl: 'https://fpk12.github.io/bridge/bridge.html',
         initCallback: function () {
             console.log('Got iframe ready');
             xdLocalStorage.setItem('check', 'no callback');
